@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Assignment 5</h1>
+
+    <div>
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#Challenge2">Challenge 2: Build a Chessboard</a></li>
+        <li><a href="#Challenge3">Challenge 3: Create a Form</a></li>
+        <li><a href="#Challenge5">Challenge 5: Accessibility Concerns</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 id="Challenge2">Challenge 2: Build a Chessboard</h2>
+      <style type="text/css">
+      .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+      .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        overflow:hidden;padding:10px 5px;word-break:normal;}
+      .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+      .tg .tg-0lax{text-align:left;vertical-align:top}
+      .tg .tg-8m24{background-color:#000000;text-align:left;vertical-align:top}
+      </style>
+      <table class="tg">
+        <tbody>
+          <tr>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+          </tr>
+          <tr>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+          </tr>
+          <tr>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+          </tr>
+          <tr>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+          </tr>
+          <tr>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+          </tr>
+          <tr>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">&#9817;</td>
+            <td class="tg-8m24">&#9817;</td>
+            <td class="tg-0lax">&#9817;</td>
+            <td class="tg-8m24">&#9817;</td>
+            <td class="tg-0lax">&#9817;</td>
+            <td class="tg-8m24">&#9817;</td>
+            <td class="tg-0lax">&#9817;</td>
+            <td class="tg-8m24">&#9817;</td>
+          </tr>
+          <tr>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+            <td class="tg-8m24"></td>
+            <td class="tg-0lax"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <h2 id="Challenge3">Challenge 3: Create a Form</h2>
+      <p>What is your name?</p>
+      <form>
+        <label for="name">Preferred name:</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="lastName">Last name:</label>
+        <br>
+        <input type="text" id="lastName" name="lastName">
+      </form>
+
+      <p>What mythical creature would you like to be?</p>
+      <form>
+        <input type="radio" id="mermaid" name="creature" value="Mermaid">
+        <label for="mermaid">Mermaid/man/person</label>
+        <br>
+        <input type="radio" id="centaur" name="creature" value="Centaur">
+        <label for="centaur">Centaur</label>
+        <br>
+        <input type="radio" id="fairy" name="creature" value="Fairy">
+        <label for="jfairy">Fairy</label>
+      </form>
+
+      <p>Which fantasy worlds do you want to live in?</p>
+      <form>
+        <input type="checkbox" id="hp" name="world" value="hp">
+        <label for="hp">Harry Potter</label>
+        <br>
+        <input type="checkbox" id="lotr" name="world" value="lotr">
+        <label for="lotr">Lord of the Rings</label>
+        <br>
+        <input type="checkbox" id="twilight" name="world" value="twilight">
+        <label for="twilight">Twilight</label>
+      </form>
+
+    </div>
+
+    <div>
+      <h2 id="Challenge5">Challenge 5: Accessibilty Concerns</h2>
+      <p>This code, while trying to keep accesssiblity in mind, is not perfect. For example, this code might not work well for someone who has motor function impairments. They might have trouble clicking and filling out the form. This code is also not outfitted for alternative browsing devices, such as smartphones, TV, smart watches, etc. There is a way to make this code accessible to those but I have not yet learned it.</p>
+    </div>
+
+  </body>
+</html>
