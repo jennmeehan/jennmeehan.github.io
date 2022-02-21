@@ -1,9 +1,15 @@
 img {
   width: 150px;
 }
+
 img.hobby {
-  width: 100px;
+  width: 300px;
 }
+
+img.book {
+  width: 150px;
+}
+
 hr {
   color: #586F7C;
   display: block;
