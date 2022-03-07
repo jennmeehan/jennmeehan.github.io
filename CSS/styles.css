@@ -38,8 +38,12 @@ a:visited {
   color: #2F0A28;
 }
 
-@media screen and (max width: 400px) {
+@media screen and (max width: 600px) {
   img {
     max-width: 100%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction:column;
   }
 }
