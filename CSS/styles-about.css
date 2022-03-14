@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1900px) and landscape {
   .grid-container-about {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
