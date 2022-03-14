@@ -1,5 +1,19 @@
 
 @media screen and (max-width: 600px) {
+  .grid-container-home {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item-1-home {
+    text-align: center;
+  }
+
+  .grid-item-4-home {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
   img {
     max-width: 100%;
   }
@@ -12,29 +26,23 @@
     grid-column-gap: 50px;
   }
 
-  .grid-item-1 {
+  .grid-item-1-home {
     grid-column: 1 / -1;
-    align-content: center;
+    text-align: center;
   }
 
-  .grid-item-2 {
+  .grid-item-2-home {
     grid-column: 1 / -1;
+
   }
 
-  .grid-item-3 {
+  .grid-item-3-home {
     grid-row: span 2;
+
   }
 
-  
-  hr {
-    color: #586F7C;
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 1px;
+  img {
+    max-width: 100%;
   }
 
   a {
