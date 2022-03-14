@@ -14,35 +14,6 @@
       grid-row: 3;
     }
 
-  .grid-container-about {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-      .grid-item-1-about {
-        text-align: center;
-      }
-
-      .grid-item-4-about {
-        grid-row: 2;
-      }
-
-      .grid-item-3-about {
-        grid-row: 3;
-      }
-
-      .grid-item-5-about {
-        text-align: center;
-        grid-row: 4;
-      }
-
-      .grid-item-6-about {
-        grid-row: 5;
-      }
-
-      .grid-item-2-about {
-        grid-row: 6;
-      }
   img {
     max-width: 100%;
   }
