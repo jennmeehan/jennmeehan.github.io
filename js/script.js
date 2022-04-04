@@ -1,10 +1,10 @@
-const button = document.querySelector('button')
+const btn = document.querySelector('button')
 
-button.addEventListener('click', updateName);
+btn.addEventListener('click', updateName);
 
 function updateName () {
   const name = prompt('Enter a name');
-  button.textContent = `Honorary Human: ${name}`;
+  btn.textContent = `Honorary Human: ${name}`;
 }
 
 const timeBtn = document.getElementById('timeBtn').addEventListener('click', wrangleDate);
