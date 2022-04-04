@@ -8,8 +8,6 @@ p {
 }
 
 button {
-  display: flex;
-  justify-content: center;
   font-family: "Luminari", fantasy;
   font-size: 17px;
   letter-spacing: 1px;
