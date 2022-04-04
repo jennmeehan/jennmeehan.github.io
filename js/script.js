@@ -7,10 +7,10 @@ function updateName () {
   btn.textContent = `Honorary Human: ${name}`;
 }
 
-const timeBtn = document.getElementById('timeBtn').addEventListener('click', wrangleDate);
+document.getElementById('timeBtn').addEventListener('click', wrangleDate);
 
 function wrangleDate() {
-  timeBtn.getElementById('time').innerHTML = Date();
+  document.getElementById('time').innerHTML = Date();
 }
 
 document.querySelector('html').addEventListener('click',
