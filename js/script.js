@@ -7,13 +7,13 @@ function updateName () {
   btn.textContent = `Honorary Human: ${name}`;
 }
 
-//document.getElementById('timeBtn').addEventListener('click', wrangleDate);
+document.getElementById('timeBtn').addEventListener('click', wrangleDate);
 
-//function wrangleDate() {
-//  document.getElementById('time').innerHTML = Date();
-//}
+function wrangleDate() {
+  document.getElementById('time').innerHTML = Date();
+}
 
-//document.querySelector('html').addEventListener('click',
-//funtion() {
-//  alert('Please stop. I hate it when people poke me!');
-//});
+document.querySelector('html').addEventListener('click',
+funtion() {
+  alert('Please stop. I hate it when people poke me!');
+});
